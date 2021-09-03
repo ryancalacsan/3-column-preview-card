@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 88px 24px;
     font-size: 15px;
+    background-color: $veryLightGray;
 
     @include breakpoint-up(large) {
         padding-top: 171px;

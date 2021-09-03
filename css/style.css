@@ -24,6 +24,7 @@ body {
   margin: 0;
   padding: 88px 24px;
   font-size: 15px;
+  background-color: #f2f2f2;
 }
 
 @media (min-width: 64em) {
@@ -99,6 +100,7 @@ a:hover {
 }
 
 .cars__cardTitle {
+  text-transform: uppercase;
   font-size: 40px;
   line-height: 48px;
   margin-bottom: 25px;
@@ -118,6 +120,7 @@ a:hover {
 }
 
 .cars__cardCta {
+  line-height: 25px;
   display: inline-block;
   background-color: #f2f2f2;
   padding: 11px 31.5px 12px 31.5px;

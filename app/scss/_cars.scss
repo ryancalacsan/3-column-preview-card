@@ -19,6 +19,7 @@
     }
 
     &__cardTitle {
+        text-transform: uppercase;
         font-size: 40px;
         line-height: 48px;
         margin-bottom: 25px;
@@ -36,6 +37,7 @@
     }
 
     &__cardCta {
+        line-height: 25px;
         display: inline-block;
         background-color: $veryLightGray;
         padding: 11px 31.5px 12px 31.5px;
