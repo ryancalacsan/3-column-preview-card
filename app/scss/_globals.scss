@@ -14,12 +14,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 88px 24px;
-    font-size: 15px;
+    padding: 5.5rem 1.5rem;
+    font-size: 0.9375rem;
     background-color: $veryLightGray;
 
     @include breakpoint-up(large) {
-        padding-top: 171px;
+        padding-top: 10.6875rem;
     }
 }
 
@@ -37,8 +37,8 @@ p {
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
     color: $transparentWhite;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 0.0625rem;
+    padding-right: 0.0625rem;
 }
 
 a,
@@ -53,7 +53,7 @@ a:hover {
     &:hover {
         color: $white;
         background-color: transparent;
-        outline: 2px solid $white;
-        outline-offset: -2px;
+        outline: 0.125rem solid $white;
+        outline-offset: -0.125rem;
     }
 }

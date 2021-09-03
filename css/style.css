@@ -22,14 +22,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
-  padding: 88px 24px;
-  font-size: 15px;
+  padding: 5.5rem 1.5rem;
+  font-size: 0.9375rem;
   background-color: #f2f2f2;
 }
 
 @media (min-width: 64em) {
   body {
-    padding-top: 171px;
+    padding-top: 10.6875rem;
   }
 }
 
@@ -47,8 +47,8 @@ p {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.75);
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 0.0625rem;
+  padding-right: 0.0625rem;
 }
 
 a,
@@ -62,8 +62,8 @@ a:hover {
 .btn:hover {
   color: white;
   background-color: transparent;
-  outline: 2px solid white;
-  outline-offset: -2px;
+  outline: 0.125rem solid white;
+  outline-offset: -0.125rem;
 }
 
 .cars {
@@ -86,51 +86,51 @@ a:hover {
 }
 
 .cars__card {
-  padding: 48px 49px;
+  padding: 3rem 3.0625rem;
 }
 
 @media (min-width: 64em) {
   .cars__card {
-    padding: 48px;
+    padding: 3rem;
   }
 }
 
 .cars__cardIcon {
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 .cars__cardTitle {
   text-transform: uppercase;
-  font-size: 40px;
-  line-height: 48px;
-  margin-bottom: 25px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.5625rem;
 }
 
 .cars__cardText {
-  max-width: 231px;
-  margin-bottom: 25px;
-  line-height: 25px;
+  max-width: 14.4375rem;
+  margin-bottom: 1.5625rem;
+  line-height: 1.5625rem;
 }
 
 @media (min-width: 64em) {
   .cars__cardText {
-    max-width: 212px;
-    margin-bottom: 83px;
+    max-width: 13.25rem;
+    margin-bottom: 5.1875rem;
   }
 }
 
 .cars__cardCta {
-  line-height: 25px;
+  line-height: 1.5625rem;
   display: inline-block;
   background-color: #f2f2f2;
-  padding: 11px 31.5px 12px 31.5px;
-  border-radius: 25px;
+  padding: 0.6875rem 1.9688rem 0.75rem 1.9688rem;
+  border-radius: 1.5625rem;
 }
 
 .card1 {
   background-color: #e38826;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .card1 a {
@@ -140,7 +140,7 @@ a:hover {
 @media (min-width: 64em) {
   .card1 {
     border-top-right-radius: 0;
-    border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 0.5rem;
   }
 }
 
@@ -154,8 +154,8 @@ a:hover {
 
 .card3 {
   background-color: #004241;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .card3 a {
@@ -165,8 +165,8 @@ a:hover {
 @media (min-width: 64em) {
   .card3 {
     border-bottom-left-radius: 0;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

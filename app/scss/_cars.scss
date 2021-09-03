@@ -7,41 +7,41 @@
     }
 
     &__card {
-        padding: 48px 49px;
+        padding: 3rem 3.0625rem;
 
         @include breakpoint-up(large) {
-            padding: 48px;
+            padding: 3rem;
         }
     }
 
     &__cardIcon {
-        margin-bottom: 35px;
+        margin-bottom: 2.1875rem;
     }
 
     &__cardTitle {
         text-transform: uppercase;
-        font-size: 40px;
-        line-height: 48px;
-        margin-bottom: 25px;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-bottom: 1.5625rem;
     }
 
     &__cardText {
-        max-width: 231px;
-        margin-bottom: 25px;
-        line-height: 25px;
+        max-width: 14.4375rem;
+        margin-bottom: 1.5625rem;
+        line-height: 1.5625rem;
 
         @include breakpoint-up(large) {
-            max-width: 212px;
-            margin-bottom: 83px;
+            max-width: 13.25rem;
+            margin-bottom: 5.1875rem;
         }
     }
 
     &__cardCta {
-        line-height: 25px;
+        line-height: 1.5625rem;
         display: inline-block;
         background-color: $veryLightGray;
-        padding: 11px 31.5px 12px 31.5px;
-        border-radius: 25px;
+        padding: 0.6875rem 1.9688rem 0.75rem 1.9688rem;
+        border-radius: 1.5625rem;
     }
 }
 
@@ -50,11 +50,11 @@
         color: $brightOrange;
     }
     background-color: $brightOrange;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
     @include breakpoint-up(large) {
         border-top-right-radius: 0;
-        border-bottom-left-radius: 8px;
+        border-bottom-left-radius: 0.5rem;
     }
 }
 
@@ -70,11 +70,11 @@
         color: $veryDarkCyan;
     }
     background-color: $veryDarkCyan;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     @include breakpoint-up(large) {
         border-bottom-left-radius: 0;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
     }
 }
