@@ -1,0 +1,78 @@
+.cars {
+    display: flex;
+    flex-direction: column;
+
+    @include breakpoint-up(large) {
+        flex-direction: row;
+    }
+
+    &__card {
+        padding: 48px 49px;
+
+        @include breakpoint-up(large) {
+            padding: 48px;
+        }
+    }
+
+    &__cardIcon {
+        margin-bottom: 35px;
+    }
+
+    &__cardTitle {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 25px;
+    }
+
+    &__cardText {
+        max-width: 231px;
+        margin-bottom: 25px;
+        line-height: 25px;
+
+        @include breakpoint-up(large) {
+            max-width: 212px;
+            margin-bottom: 83px;
+        }
+    }
+
+    &__cardCta {
+        display: inline-block;
+        background-color: $veryLightGray;
+        padding: 11px 31.5px 12px 31.5px;
+        border-radius: 25px;
+    }
+}
+
+.card1 {
+    a {
+        color: $brightOrange;
+    }
+    background-color: $brightOrange;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    @include breakpoint-up(large) {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
+    }
+}
+
+.card2 {
+    a {
+        color: $darkCyan;
+    }
+    background-color: $darkCyan;
+}
+
+.card3 {
+    a {
+        color: $veryDarkCyan;
+    }
+    background-color: $veryDarkCyan;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    @include breakpoint-up(large) {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}

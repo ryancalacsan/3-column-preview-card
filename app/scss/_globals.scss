@@ -10,8 +10,49 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 88px 24px;
     font-size: 15px;
-    line-height: 1.3px;
+
+    @include breakpoint-up(large) {
+        padding-top: 171px;
+    }
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    color: $veryLightGray;
+}
+
+p {
+    margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: $transparentWhite;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    &:hover {
+        color: $white;
+        background-color: transparent;
+        outline: 2px solid $white;
+        outline-offset: -2px;
+    }
 }
